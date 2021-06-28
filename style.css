@@ -1,0 +1,51 @@
+/*
+ Theme Name:   Purgation
+ Description:  Storefront Child Theme
+ Author:       AJF
+ Author URI:   http://andrewjfleming.com/
+ Template:     storefront
+ Version:      1.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         simplified checkout page, ecommerce, empty cart button 
+ Text Domain:  storefrontchild
+*/
+
+body {
+    background-color: #f9fff6!important;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.widget-title,
+blockquote p {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.home .entry-header {
+    display: none;
+}
+
+.single_add_to_cart_button.fa:before{
+    padding-right: 10px;
+}
+
+.woocommerce-checkout .storefront-primary-navigation,
+.woocommerce-checkout .site-search,
+.woocommerce-checkout .header-widget-region,
+.woocommerce-checkout .footer-widgets {
+    display: none;
+}
+
+/* 
+@media (min-width: 768px){
+    .site-main ul.products li.products {
+        max-width: 15%;
+    }   
+}
+*/
