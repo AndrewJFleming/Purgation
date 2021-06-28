@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/AndrewJFleming/purgation">
-    <img src="images/purgation-logo.png" alt="Purgation Logo" height="80" style="background-color:#333; padding:15px; border-radius:10px; box-shadow: 5px 5px 5px #999;">
+    <img src="images/purgation-logo.png" alt="Purgation Logo" height="80">
       
   </a>
 
